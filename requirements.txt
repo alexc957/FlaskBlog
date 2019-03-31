@@ -1,0 +1,7 @@
+Flask
+Flask-Bcrypt
+Flask-WTF
+Flask-Login
+Flask-SQLAlchemy
+WTForms
+gunicorn

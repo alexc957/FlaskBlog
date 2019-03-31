@@ -4,13 +4,13 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
-from flask_mail  import Mail
+
 import os
 #an instance of flask
 # __name__ the name of this module
 app = Flask(__name__)
 
-app.config['SECRET_KEY']= '5909ecfe0f7ffa554b4d2c0f37dc8ff6'
+app.config['SECRET_KEY']= 'the-secret-key-goes-here'
 app.config['SQLALCHEMY_DATABASE_URI'] ='sqlite:///site.db'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
